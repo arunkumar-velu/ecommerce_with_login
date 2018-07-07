@@ -4,7 +4,7 @@ const redis          = require('redis');
 const app            = express();
 const port           = 7001;
 const path           = require('path');
-var client           = redis.createClient();
+var client           = redis.createClient(process.env.REDISCLOUD_URL, {no_ready_check: true});
 var cookieParser     = require('cookie-parser');
 app.set('port', (process.env.PORT || port));
 app.use('/assets', express.static(path.join(__dirname, '/app/assets')))
