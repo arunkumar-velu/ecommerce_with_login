@@ -1,10 +1,11 @@
 {
-  "name": "restore",
+  "name": "Website",
   "version": "1.0.0",
-  "description": "Restore user logic for freshchat",
+  "description": "Website with login logic",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Arun",
   "license": "MIT",
