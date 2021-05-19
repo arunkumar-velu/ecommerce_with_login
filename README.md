@@ -1,10 +1,14 @@
 # Ecommerce site with login
 
-Prerequest:
+## DEMO
+
+http://ecommerce.arunkumarvelu.in
+
+## Prerequest:
   1. Node js
   2. Redis
 
-Installation:
+## Installation:
   1. Start redis server
   2. npm install
   3. npm run dev
